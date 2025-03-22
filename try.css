@@ -419,9 +419,8 @@ p {
     background-color: #191a23;
 }
 
-/* Tablet styles */
+/* TABLET */
 @media screen and (min-width: 768px) {
-  /* Navbar tablet adjustments */
   .navbar .menu-links {
     position: static;
     width: auto;
@@ -459,7 +458,6 @@ p {
     max-width: 77%;
   }
 
-  /* Rest of your tablet layout */
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -496,9 +494,6 @@ p {
     padding-top: 80px;
   }
 
-
-
-
   .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -507,7 +502,7 @@ p {
   
 }
 
-/* Desktop styles */
+/* DESKTOP */
 @media screen and (min-width: 1024px) {
   .flex-links {
     max-width: 70%;
@@ -517,7 +512,6 @@ p {
     padding: 10px 20px;
   }
 
-  /* Rest of your desktop layout */
   .container {
     max-width: 70%;
   }
