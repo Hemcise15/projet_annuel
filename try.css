@@ -546,9 +546,7 @@ form{
  
 }
 
-button:hover{
-  background-color: #FF9900;
-}
+
 
 /********************************************* FORMULAIRE DE CONTACT  ***********************************************/
 .mess{
@@ -576,7 +574,7 @@ button:hover{
 
 
 .envoie:hover{
-  background-color: #292A32;
+  background-color:  #ff4c24;
 }
 
 
