@@ -419,6 +419,315 @@ p {
     background-color: #191a23;
 }
 
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/********************************************* FOOTER ***********************************************/
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+footer{
+  background-color:  #191A23;
+  text-align: center;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap : 1rem;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+
+.link ul{
+  display: flex;
+  flex-direction: column;
+  gap : 1rem;
+}
+
+.link a{
+  color : aliceblue;
+  text-decoration: none;
+  gap: 5%;
+  text-decoration: underline;
+}
+
+.link li{
+  list-style: none;
+}
+
+.contact li{
+  list-style: none;
+  color: aliceblue;
+}
+
+.contact h2{
+  background-color: #ff4c24;
+  display: inline;
+  color: #191A23;
+  border-radius: 7%;
+  padding: 7px 14px;
+  
+}
+
+.contact ul{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.all{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+form{
+  border-radius: 5%;
+  
+}
+
+.sub{
+  background-color: #ff4c24;
+  color: #191A23;
+  font-size: 20px;
+  border-radius:14px;
+  padding: 2%;
+  width: 17.8125rem;
+  height: 4.1875rem;
+  border: none;
+  cursor: pointer;
+
+}
+
+#email {
+  background-color:#191A23;
+  width: 17.8125rem;
+  height: 2.9375rem;
+  border-radius:  0.875rem;
+  border: 1px solid aliceblue;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+ 
+}
+#email::placeholder {
+  color: aliceblue;
+  padding-left: 1rem;
+}
+
+.news{
+  background-color: #292A32;
+  display: inline;
+  border-radius:1.5rem;
+ padding: 0.5rem;
+ height:11rem;
+ width: 20.3125rem;
+ 
+ 
+ 
+ 
+}
+
+button:hover{
+  background-color: #FF9900;
+}
+
+/********************************************* FORMULAIRE DE CONTACT  ***********************************************/
+.mess{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 1rem;
+}
+
+
+.envoie{
+  color: aliceblue;
+  background-color: #191A23;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  border-radius:14px;
+  padding: 2%;
+  width: 20.8125rem;
+  height: 3.1875rem;
+  border: none;
+  cursor: pointer;
+}
+
+
+.envoie:hover{
+  background-color: #292A32;
+}
+
+
+ 
+main .form {
+  background-color: #dbdbdb;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 1.5rem;
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+main .form .check {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  justify-content: left;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: white;
+  outline: none;
+  font-size: 16px;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #aaa;
+}
+
+.sub {
+  background-color: #191A23;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.sub:hover {
+  background-color: #ff4c24;
+}
+
+main .form .mess label {
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 90%;
+}
+main .form .check label{
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 0px;
+  
+  width: 40%;
+}
+
+.footer-bottom a{
+  text-decoration: none;
+  color: aliceblue;
+}
+.footer-bottom{
+  color: aliceblue;
+}
+
+
+
+.logor {
+  display: flex;
+  flex-direction: row;
+ gap: 1rem;
+}
+
+.logor li {
+  color: #F3F3F3;
+  
+}
+
+.helpmeout{
+  display: none;
+}
+
+.form h2{
+  display: none;
+}
+
+input[id="email"] {
+  color: white;
+ 
+  
+}
+
+textarea{
+  resize : none;
+}
+
+
+#message{
+  height: 190px;
+  border-radius: 7px;
+  border:0.5px solid #191A23;
+
+}
+
+#mail, #name{
+  height: 2rem;
+  border:0.5px solid #191A23;
+  border-radius: 7px;
+}
+
+
+input[type="checkbox"] {
+  appearance: none; 
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #333;
+  border-radius: 50%; 
+  background-color: white;
+  cursor: pointer;
+  
+}
+
+input[type="checkbox"]:checked {
+  background-color: #ff4c24; 
+  border-color: #ff4c24;
+  border: 2px solid #333;
+  
+}
+
+
+
 /* TABLET */
 @media screen and (min-width: 768px) {
   .navbar .menu-links {
@@ -502,7 +811,6 @@ p {
   
 }
 
-/* DESKTOP */
 @media screen and (min-width: 1024px) {
   .flex-links {
     max-width: 70%;
@@ -543,4 +851,125 @@ p {
   .card {
     min-height: 180px;
   }
+
+  /* Footer */
+  footer{
+    width: 75%;
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    display: flex;
+    justify-content: space-between; /* Permet d'aligner le contact à gauche et la newsletter à droite */
+    align-items: flex-start;
+    
+ 
+}
+.link ul{
+  display: flex;
+  flex-direction: row;
+  
+}
+.contact li{
+  display: flex;
+  text-align: justify;
+  align-items: flex-start;
+  justify-content: flex-start;
+  
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+ text-align: justify;
+ align-self: flex-start;
+  margin-left: 8rem; /* S'assure qu'il n'y a pas de marge à gauche */
+  margin-top: 5rem;
+  
+}
+
+.news{
+  display: flex;
+  flex-direction: row;
+  width: 38rem;
+  height: 8rem;
+ margin-top:-11rem;
+ margin-right:10rem;
+ }
+ .news form{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+ }
+ #email{
+  height: 4rem;
+}
+.footer-bottom p{
+  display: flex;
+  flex-direction: row;
+margin-top: 3rem;
+ }
+
+ .logor {
+  display: flex;
+ gap : 2rem;
+ margin-left: 20rem;
+  
+}
+.helpmeout{
+  display: flex;
+ 
+}
+main .form{
+  background-color: #e4e4e4;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-right: 55rem;
+}
+main .form h2{
+  background-color: #ff4c24;
+  display: inline;
+  color: #191A23;
+  border-radius: 30%;
+  padding: 7px 14px;
+}
+.link{
+  margin-top:0.5rem;
+}
+.footer-bottom p{
+  
+  font-size: 16px;
+}
+
+.check{
+  gap : 1rem;
+  margin-top: 1rem;
+}
+
+main .form .mess label {
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 100%;
+}
+main .form h2{
+  background-color: #ff4c24;
+  display: inline-block;
+  color: #191A23;
+  border-radius: 10px;
+  padding: 7px 14px;
+  margin-top: -0.5rem;
+  text-align: left;
+  margin-left:1rem;
+}
+
+main .form .mess,main .form .check{
+  margin-left: 3rem;
+}
+#mail,#name,#message{
+  width: 480px;
+}
+
+.envoie{
+  width: 100%;
+}
 }
