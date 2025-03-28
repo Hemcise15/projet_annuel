@@ -812,6 +812,7 @@ input[type="checkbox"]:checked {
 }
 
 @media screen and (min-width: 1024px) {
+
   .flex-links {
     max-width: 70%;
   }
@@ -880,7 +881,7 @@ input[type="checkbox"]:checked {
   flex-direction: column;
  text-align: justify;
  align-self: flex-start;
-  margin-left: 8rem; /* S'assure qu'il n'y a pas de marge à gauche */
+  margin-left: 8rem; 
   margin-top: 5rem;
   
 }
@@ -888,10 +889,11 @@ input[type="checkbox"]:checked {
 .news{
   display: flex;
   flex-direction: row;
-  width: 38rem;
+  width: 45rem;
   height: 8rem;
  margin-top:-11rem;
  margin-right:10rem;
+ padding: 3rem;
  }
  .news form{
   display: flex;
@@ -899,8 +901,16 @@ input[type="checkbox"]:checked {
   gap: 1rem;
   align-items: center;
  }
- #email{
+ #email {
+  background-color:#191A23;
+  width: 30.8125rem;
   height: 4rem;
+  border-radius:  0.875rem;
+  border: 1px solid aliceblue;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  
+ 
 }
 .footer-bottom p{
   display: flex;
@@ -918,6 +928,7 @@ margin-top: 3rem;
   display: flex;
  
 }
+
 main .form{
   background-color: #e4e4e4;
   width: 100%;
